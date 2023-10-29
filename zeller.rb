@@ -8,8 +8,11 @@ def zeller(year,month,day)
   return  %w(Sunday Monday Tuesday Wednesday Thursday Friday Saturday)[h]
 end
 
-puts "year : " year = gets.chomp.to_i
-puts "month : " month = gets.chomp.to_i
-puts "day : " day = gets.chomp.to_i
+print "year : "
+year = gets.chomp.to_i
+print "month : "
+month = gets.chomp.to_i
+print "day : "
+day = gets.chomp.to_i
 
 puts zeller(year,month,day)
